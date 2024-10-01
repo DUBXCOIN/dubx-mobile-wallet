@@ -1,0 +1,252 @@
+.detail-holder {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.pHeightKey {
+  height: 50px;
+  display: block;
+}
+.custom-toast {
+  --background: #8b50c7;
+  --box-shadow: 3px 3px 10px 0 rgba(0, 0, 0, 0.2);
+  --color: #fff;
+  text-align: center;
+  font-size: 20px;
+}
+.dotted {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+.dotted li {
+  display: inline-block;
+  list-style: none;
+  height: 15px;
+  width: 15px;
+  background: #cd7bf0;
+  border-radius: 100%;
+  margin: 0 0.2em;
+  animation: anm 1s linear infinite alternate;
+}
+
+@keyframes anm {
+  0% {
+    transform: scale(0.1);
+    filter: hue-rotate(0deg);
+    opacity: 0;
+  }
+  50% {
+    transform: scale(0.4);
+  }
+  100% {
+    transform: scale(1);
+    filter: hue-rotate(360deg);
+  }
+}
+
+.dotted li:nth-child(2) {
+  animation-delay: 0.4s;
+}
+
+.dotted li:nth-child(3) {
+  animation-delay: 0.8s;
+}
+
+.easySend {
+  text-align: center;
+  font-size: 20px;
+  background-clip: text;
+  font-family: Poppins, sans-serif;
+  font-weight: 700 !important;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  color: #797979;
+}
+.mx20 {
+  margin-top: 20px !important;
+  margin-bottom: 20px !important;
+}
+.sendHolder {
+  max-height: 0;
+  overflow: hidden;
+  padding: 0;
+  transition: max-height 0.3s ease-out;
+}
+.sendHolder1 {
+  padding: 0;
+  transition: max-height 0.3s ease-out;
+}
+
+.sendHolder.visible {
+  max-height: 500px;
+  background: hsla(0, 0%, 100%, 0.05);
+  background-size: 150%;
+  border: 1px solid hsla(0, 0%, 100%, 0.3);
+  border-radius: 16px;
+  margin-bottom: 10px;
+}
+.error-message {
+  color: #9f69ff;
+  text-align: center;
+}
+.warning-message {
+  color: #f373bf;
+  text-align: left;
+}
+.mining-message {
+  color: #797979;
+  text-align: center;
+  --background: transparent !important;
+}
+.warning-grey {
+  color: #797979;
+  text-align: left;
+}
+.mb35 {
+  margin-bottom: 35px;
+}
+
+.mining-btn-toggle {
+  color: #797979;
+  text-align: center;
+  --background: transparent !important;
+  margin: auto;
+  border: 1px solid grey;
+  width: 100%;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.warningH2 {
+  color: #797979;
+  text-align: center;
+  --background: transparent !important;
+  margin: auto;
+  border: 1px solid grey;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.mining-message-left {
+  color: #797979;
+  text-align: left;
+  --background: transparent !important;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+.mtop {
+  margin-top: 30px;
+}
+.btn-pr {
+  color: #673ab7 !important;
+  font-weight: 800;
+  letter-spacing: -0.8px;
+  font-size: 11px;
+  background: #f4f5f8;
+  border-radius: 6px;
+}
+.mt40 {
+  margin-top: 40px;
+}
+.mt20 {
+  margin-top: 20px;
+}
+.mb40 {
+  margin-bottom: 40px;
+}
+.page-container {
+  position: relative;
+  padding-bottom: 30px;
+}
+.btn-remove {
+  text-transform: none;
+  font-size: 10px;
+  float: right !important ;
+}
+[dir="rtl"] .btn-remove {
+  text-transform: none;
+  font-size: 10px;
+  float: left !important;
+}
+.btn-qr {
+  text-transform: none;
+  font-size: 10px;
+}
+.flex-qr {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+.balanceHolder {
+  display: flex;
+  flex-direction: column;
+}
+hr.hr {
+  height: 1px;
+  border-width: 0;
+  box-sizing: content-box;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid rgb(255 255 255 / 20%);
+}
+.clearall {
+  position: absolute;
+  right: -65px;
+  top: -34px;
+  padding: 5px;
+  border-radius: 4px;
+  background: #474747;
+  color: #fff;
+  border: 1px solid #838383;
+}
+.detail {
+  background-color: #8b50c7;
+  border: 1px solid #8b50c7;
+  padding: 5px;
+  border-radius: 6px;
+  width: 60px;
+}
+.btnsp {
+  color: rgb(255, 255, 255);
+  font-size: 10px;
+  margin: 0;
+  font-weight: 500;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.btnsHolder {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+.address-input {
+  flex: 1;
+  font-size: 14px;
+  margin-top: 10px;
+}
+.scanner-holder {
+  display: flex;
+  align-items: center;
+  margin: 10px 0px 10px 5px;
+  /* display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  align-items: center; */
+}

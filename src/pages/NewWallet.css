@@ -1,0 +1,14 @@
+.btnImport {
+  --background: linear-gradient(
+    to right,
+    rgb(0 241 218) 0,
+    rgb(139 80 199) 100%
+  );
+  margin-bottom: 30px;
+  --border-radius: 10px;
+  font-weight: 700;
+  height: 55px;
+  letter-spacing: 0.2px;
+  white-space: normal;
+  font-size: "12px";
+}

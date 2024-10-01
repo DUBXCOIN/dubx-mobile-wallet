@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">DubxMobileWallet</string>
+    <string name="title_activity_main">DubxMobileWallet</string>
+    <string name="package_name">com.arabianchain.wallet</string>
+    <string name="custom_url_scheme">com.arabianchain.wallet</string>
+</resources>
